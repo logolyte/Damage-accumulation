@@ -10,28 +10,6 @@ This project simulates aging as a process of stochastic damage accumulation usin
 - Plots histograms of lifespans, survival curves, mortality, and average damage.
 - Includes parameter sets for humans and mice, and simulates the effects of interventions.
 
-## Main Equations
-
-### Single Damage Type
-$$
-\\frac{dx}{dt} = \\eta t - \\beta \\frac{x}{x+\\kappa} + \\sqrt{2\\epsilon}\\xi
-$$
-
-### Two Damage Types
-$$
-\\begin{aligned}
-\\frac{dA}{dt} &= \\alpha_1 t - \\beta_1 \\frac{A}{A + K_1} + \\sqrt{2 D_1} \\, \\xi \\\\
-\\frac{dB}{dt} &= \\alpha_2 A - \\beta_2 \\frac{B}{B + K_2} + \\sqrt{2 D_2} \\, \\xi
-\\end{aligned}
-$$
-
-## Parameters
-
-- $\eta$, $\beta$, $\kappa$, $\epsilon$: Damage accumulation, repair, saturation, and noise parameters.
-- For two-damage-type models: $\alpha_1$, $\beta_1$, $K_1$, $D_1$, $\alpha_2$, $\beta_2$, $K_2$, $D_2$.
-
-See the notebook for specific values used for humans and mice.
-
 ## Usage
 
 Open the Jupyter notebook `Damage accumulation.ipynb`. From this notebook, you can run all simulations.
