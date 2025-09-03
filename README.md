@@ -40,11 +40,10 @@ Open the Jupyter notebook `Damage accumulation.ipynb`. From this notebook, you c
 
 All code was run with the versions specified below, and has not been tested with any other versions:
 
-- Python 3.13
-- numpy 2.2
-- matplotlib 3.8
-- multiprocess 0.7
-```
+- `Python`, 3.13
+- `numpy`, 2.2
+- `matplotlib`, 3.8
+- `multiprocess`, 0.7
 
 ## References
 
