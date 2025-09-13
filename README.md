@@ -22,6 +22,7 @@ All code was run with the versions specified below, and has not been tested with
 - `numpy`, 2.2
 - `matplotlib`, 3.8
 - `multiprocess`, 0.7
+- `numba`, 0.61
 
 ## References
 
