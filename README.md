@@ -18,11 +18,10 @@ Code, explanations and results are all found in the Jupyter notebook `Damage acc
 
 All code was run with the versions specified below, and has not been tested with any other versions:
 
-- `Python`, 3.13
-- `numpy`, 2.2
-- `matplotlib`, 3.8
-- `multiprocess`, 0.7
-- `numba`, 0.61
+- `Python`, 3.13.7
+- `numpy`, 2.2.5
+- `matplotlib`, 3.10.5
+- `numba`, 0.61.2
 
 ## References
 
